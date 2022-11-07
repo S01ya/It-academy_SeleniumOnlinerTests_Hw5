@@ -3,10 +3,12 @@ package com.it_academy.onlinerTests;
 import com.it_academy.onliner.framework.DriverManager;
 import com.it_academy.onliner.pageobject.CatalogPage;
 import com.it_academy.onliner.pageobject.OnlinerHeader;
+import org.assertj.core.api.SoftAssertions;
 import org.openqa.selenium.By;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
+import static com.it_academy.onlinerTests.TestUtilAssertions.*;
 import static org.assertj.core.api.Assertions.assertThat;
 
 import java.util.Arrays;
@@ -50,7 +52,6 @@ public class CatalogNavigationClassifierTest extends BaseTest {
                 "Хранение данных", "Сетевое оборудование");
         List<String> computersAndNetworksElements =
                 header.clickOnCatalogNavigationLink()
-                        // .clickOnCatalogClassifierLink("Компьютеры и", "сети")
                         .clickOnCatalogClassifierLink("Компьютеры и")
                         .collectElementsFromCategory()
                         .stream()
@@ -77,9 +78,12 @@ public class CatalogNavigationClassifierTest extends BaseTest {
                                 .map(x -> x.getText())
                                 .collect(Collectors.toList()))
                         .collect(Collectors.toList());
-        TestUtilAssertions.assertThatGoodsNamesExist(products);
-        TestUtilAssertions.assertThatGoodsExist(products);
-        TestUtilAssertions.assertThatPriseExist(products);
+        System.out.println(products);
+        SoftAssertions softly = new SoftAssertions();
+        assertThatGoodsNamesExist(products, softly);
+        assertThatGoodsExist(products, softly);
+        assertThatPriseExist(products, softly);
+        softly.assertAll();
     }
 
 }

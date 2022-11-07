@@ -4,23 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0362537-662a-4a5a-b2ff-b008e72ec58e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/it_academy/onliner/framework/DriverManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/it_academy/onliner/pageobject/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/it_academy/onliner/pageobject/CatalogPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/it_academy/onliner/pageobject/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/it_academy/onliner/pageobject/OnlinerHeader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/it_academy/onlinerTests/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/it_academy/onlinerTests/CatalogNavigationClassifierTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/it_academy/onlinerTests/TestUtilAssertions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/drivers/chromedriver.exe" afterDir="false" />
+    <list default="true" id="b0362537-662a-4a5a-b2ff-b008e72ec58e" name="Changes" comment="Hw-5">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/it_academy/onliner/framework/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/it_academy/onliner/framework/DriverManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/it_academy/onliner/pageobject/CatalogPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/it_academy/onliner/pageobject/CatalogPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/it_academy/onlinerTests/CatalogNavigationClassifierTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/it_academy/onlinerTests/CatalogNavigationClassifierTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/it_academy/onlinerTests/TestUtilAssertions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/it_academy/onlinerTests/TestUtilAssertions.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -189,6 +178,14 @@
       <option name="presentableId" value="Default" />
       <updated>1667063101688</updated>
     </task>
+    <task id="LOCAL-00001" summary="Hw-5">
+      <created>1667736350810</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1667736350810</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -201,6 +198,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Hw-5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hw-5" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

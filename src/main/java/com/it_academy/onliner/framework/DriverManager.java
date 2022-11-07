@@ -14,6 +14,7 @@ public class DriverManager {
         if (driver.get() == null) {
             WebDriverManager.chromedriver().setup();          // подключение с пом-ю библиотеки
             driver.set(new ChromeDriver());
+            driver.get().manage().window().maximize();
         } else {
             System.out.println("driver has been set" + Thread.currentThread().getId());   //log потом
         }
